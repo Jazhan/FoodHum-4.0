@@ -8,8 +8,9 @@
 
 # production
 /build
-
-
+/node_modules
+*.xml
+*.iml
 
 # misc
 .DS_Store
@@ -18,8 +19,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/node_modules
-*.xml
-*.iml
-
-.idea/workspace.xml
