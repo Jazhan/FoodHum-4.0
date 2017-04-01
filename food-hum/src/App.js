@@ -21,6 +21,10 @@ class App extends Component {
                     </div>
                     <div className="medium-6">
                         <input type="submit" ref="" placeholder="Submit"/>
+
+                    <div className="medium-7">
+                        <input type="text" placeholder="Food Compost"/>
+                          </div>
                     </div>
                 </div>
             </form>
