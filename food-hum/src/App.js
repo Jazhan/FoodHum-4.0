@@ -24,6 +24,12 @@ class App extends Component {
                     <div className="form-group">
                         <input type="text" id="location" placeholder="Location"/>
                     </div>
+                    <div>
+                        <label for="Food-Compost">Food Compost </label>
+                        <div className="form-group">
+                          <input type="text" id="Food-Compost-location" placeholder="Food-Compost-location"/>
+                      </div>
+
                     {/*{addNewFood()}*/}
                     <AddFoods/>
                 </div>
@@ -32,6 +38,7 @@ class App extends Component {
       </div>
     );
   }
+}
 }
 
 export default App;
