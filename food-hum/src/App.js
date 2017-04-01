@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from './images/FoodHUM.png';
+import './App.scss';
 
 class App extends Component {
   render() {
@@ -8,11 +8,23 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <p>Live into the future with better food choices</p>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div>
+            <form>
+                <div className="row">
+                    <div className="medium-6">
+                        <input type="text" placeholder="Name of Restaurant"/>
+                    </div>
+                    <div className="medium-6">
+                        <input type="text" placeholder="Location"/>
+                    </div>
+                    <div className="medium-6">
+                        <input type="submit" ref="" placeholder="Submit"/>
+                    </div>
+                </div>
+            </form>
+        </div>
       </div>
     );
   }

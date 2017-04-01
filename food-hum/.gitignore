@@ -8,6 +8,9 @@
 
 # production
 /build
+/node_modules
+*.xml
+*.iml
 
 # misc
 .DS_Store
