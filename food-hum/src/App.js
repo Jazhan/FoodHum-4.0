@@ -32,13 +32,13 @@ class App extends Component {
 
                     {/*{addNewFood()}*/}
                     <AddFoods/>
+                    </div>
                 </div>
             </form>
         </div>
       </div>
     );
   }
-}
 }
 
 export default App;
