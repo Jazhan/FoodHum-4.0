@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import logo from './images/FoodHUM.png';
 import './styles/css/bootstrap.css';
 import './styles/css/app.css'
+import AddFoods from './AddFoods.js';
 
 class App extends Component {
+
   render() {
     return (
       <div className="container">
@@ -22,12 +24,8 @@ class App extends Component {
                     <div className="form-group">
                         <input type="text" id="location" placeholder="Location"/>
                     </div>
-                    <div className="form-group">
-                        <input type="submit" ref="" placeholder="Submit"/>
-                    </div>
-                    <div className="form-group">
-                        <input type="text" placeholder="Food Compost"/>
-                    </div>
+                    {/*{addNewFood()}*/}
+                    <AddFoods/>
                 </div>
             </form>
         </div>
