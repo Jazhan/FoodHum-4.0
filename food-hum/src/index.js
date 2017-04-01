@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './index.scss';
+
+// require('./node_modules/foundation-sites/scss/foundation.scss');
+// $(document).foundation();
 
 ReactDOM.render(
   <App />,
