@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from './images/FoodHUM.png';
-import './App.scss';
 
 class App extends Component {
   render() {
@@ -12,13 +11,14 @@ class App extends Component {
         </div>
         <div>
             <form>
-                <div className="row">
-                    <div className="medium-6">
-                        <input type="text" placeholder="Name of Restaurant"/>
+                <div class="row">
+                    <div class="medium-6">
+                            <input type="text" placeholder="Name of Restaurant"/>
                     </div>
-                    <div className="medium-6">
+                    <div class="medium-6">
                         <input type="text" placeholder="Location"/>
                     </div>
+<<<<<<< HEAD
                     <div className="medium-6">
                         <input type="submit" ref="" placeholder="Submit"/>
 
@@ -26,6 +26,8 @@ class App extends Component {
                         <input type="text" placeholder="Food Compost"/>
                           </div>
                     </div>
+=======
+>>>>>>> 50c28a15e096d4557d3e9258fa34b63a8c95eb62
                 </div>
             </form>
         </div>
