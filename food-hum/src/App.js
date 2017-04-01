@@ -6,6 +6,10 @@ import AddFoods from './AddFoods.js';
 
 class App extends Component {
 
+    handleSubmit() {
+        <AddFoods/>
+    }
+
   render() {
     return (
       <div className="container">
@@ -35,8 +39,9 @@ class App extends Component {
                           <input type="text" id="Grocery-Store-location" placeholder="Grocery-Store-location" />
                       </div>
 
-                    {/*{addNewFood()}*/}
-                    <AddFoods/>
+                      <button onClick={this.handleSubmit()}>
+                          Add New Item
+                      </button>
                     </div>
                     </div>
                 </div>

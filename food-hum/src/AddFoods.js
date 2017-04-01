@@ -3,6 +3,16 @@ import './styles/css/bootstrap.css';
 import './styles/css/app.css'
 
 class AddFoods extends Component {
+
+    getInitialState() {
+        return {
+            foods: {
+                'bread': 20,
+                'soups': 500
+            }
+        }
+    }
+
     handleSubmit(event) {
         event.preventDefault()
         var description = this.refs.description.getDOMNode().value
@@ -13,7 +23,7 @@ class AddFoods extends Component {
     render() {
         return (
         <div>
-            <form id="add_food" onSubmit={this.handleSubmit} className="form-inline">
+            <form id="add_food" onSubmit={this.handleSubmit()} className="form-inline">
                 <div className="form-group">
                     <input id="food" ref="food" type='text' placeholder='New Item' />:
                     <input id="numberOfFoods" ref="numberOfFoods" type='text' placeholder='Number of Items' />
